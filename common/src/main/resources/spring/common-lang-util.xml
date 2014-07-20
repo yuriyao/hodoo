@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<!-- 字节工具 -->
+	<bean id="byteUtil" class="org.footoo.common.lang.util.ByteUtil" />
+	<!-- bit工具 -->
+	<bean id="bitsUtil" class="org.footoo.common.lang.util.BitsUtil" />
+	<!-- String工具 -->
+	<bean id="stringUtil" class="org.footoo.common.lang.util.StringUtil" />
+</beans>

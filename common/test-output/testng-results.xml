@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="262" started-at="2014-07-20T10:53:19Z" finished-at="2014-07-20T10:53:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="262" started-at="2014-07-20T10:53:19Z" finished-at="2014-07-20T10:53:19Z">
+      <class name="org.footoo.common.test.lang.util.ByteUtilTest">
+        <test-method status="PASS" signature="setupTestEnvironmet()[pri:0, instance:org.footoo.common.test.lang.util.ByteUtilTest@60f82f98]" name="setupTestEnvironmet" is-config="true" duration-ms="241" started-at="2014-07-20T18:53:19Z" finished-at="2014-07-20T18:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestEnvironmet -->
+        <test-method status="PASS" signature="test()[pri:0, instance:org.footoo.common.test.lang.util.ByteUtilTest@60f82f98]" name="test" duration-ms="8" started-at="2014-07-20T18:53:19Z" finished-at="2014-07-20T18:53:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- org.footoo.common.test.lang.util.ByteUtilTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
