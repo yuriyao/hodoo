@@ -4,7 +4,10 @@
  */
 package org.footoo.common.stream.util;
 
+import java.io.IOException;
 import java.io.InputStream;
+
+import org.footoo.common.buffer.ByteBuffer;
 
 /**
  * 输入流工具
@@ -18,8 +21,16 @@ public class InputStreamUtil {
      * 
      * @param in
      * @return
+     * @throws IOException 
      */
-    public String readFull(InputStream in) {
-        return null;
+    public String readFull(InputStream in) throws IOException {
+        ByteBuffer byteBuffer = new ByteBuffer();
+        final int BUFFER_LEN = 64;
+        byte[] bs = new byte[BUFFER_LEN];
+        int len = 0;
+        while ((len = in.read(bs)) >= 0) {
+            byteBuffer.append(bs, 0, len);
+        }
+        return new String(byteBuffer.toByteArray());
     }
 }

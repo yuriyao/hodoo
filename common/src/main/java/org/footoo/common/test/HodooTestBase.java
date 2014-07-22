@@ -4,26 +4,38 @@
  */
 package org.footoo.common.test;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
+import org.footoo.common.data.util.JsonUtil;
 import org.footoo.common.lang.util.StringUtil;
 import org.footoo.common.log.LoggerFactory;
 import org.footoo.common.log.LoggerUtil;
 import org.footoo.common.reflect.ReflectUtil;
+import org.footoo.common.stream.util.InputStreamUtil;
+import org.footoo.common.system.util.SystemUtil;
 import org.footoo.common.test.annotion.AutoWire;
 import org.footoo.common.test.annotion.ClassDataDirs;
 import org.footoo.common.test.annotion.MethodParamFileName;
+import org.footoo.common.test.annotion.ParameterNames;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 
+import com.beust.jcommander.ParameterException;
+
 /**
  * 所有测试的基类，测试框架使用的是TestNG
  * <ul>
  *  <li>本类用于建立测试环境</li>
+ *  <li>所有的Field都不能通过注入进行初始化，因为这个类不会配置到spring配置文件中</li>
+ *  <li>其子类可以通过AutoWire注解进行Field的注入</li>
  * </ul>
  * 
  * @author fengjing.yfj
@@ -31,9 +43,15 @@ import org.testng.annotations.DataProvider;
  */
 public class HodooTestBase extends HodooBaseTestConfig {
     /** 日志工具 */
-    private static final LoggerUtil logger      = LoggerFactory.getLogger(HodooTestBase.class);
+    private static final LoggerUtil logger          = LoggerFactory.getLogger(HodooTestBase.class);
     /** 反射工具，这个不能进行注入，只能直接初始化 */
-    private ReflectUtil             reflectUtil = new ReflectUtil();
+    private ReflectUtil             reflectUtil     = new ReflectUtil();
+    /** 系统工具 */
+    private SystemUtil              systemUtil      = new SystemUtil();
+    /** 输入流工具 */
+    private InputStreamUtil         inputStreamUtil = new InputStreamUtil();
+    /** JSON工具 */
+    private JsonUtil                jsonUtil        = new JsonUtil();
 
     /**
      * 创建测试环境
@@ -93,9 +111,10 @@ public class HodooTestBase extends HodooBaseTestConfig {
      * 进行数据提供
      * 
      * @param method
+     * @throws IOException 
      */
     @DataProvider
-    public Object[][] jsonDataProvider(Method method) {
+    public Object[][] jsonDataProvider(Method method) throws IOException {
         //获取类的测试数据的目录
         ClassDataDirs classDataDirs = this.getClass().getAnnotation(ClassDataDirs.class);
         String[] dirs = null;
@@ -103,7 +122,7 @@ public class HodooTestBase extends HodooBaseTestConfig {
         if (classDataDirs != null) {
             dirs = classDataDirs.dirs();
         } else {//没有提供，使用类名
-            dirs = new String[] { this.getClass().getName() };
+            dirs = new String[] { this.getClass().getSimpleName() };
         }
 
         //获得文件的路径名
@@ -117,8 +136,49 @@ public class HodooTestBase extends HodooBaseTestConfig {
         if (new StringUtil().isBlank(fileName)) {
             fileName = method.getName();
         }
-
+        //添加后缀名
+        fileName += ".json";
+        //结果
+        List<Object[]> objs = new ArrayList<Object[]>();
         //加载测试数据
-        return null;
+        for (String dir : dirs) {
+            //获得参数名注解信息
+            ParameterNames parameterNames = method.getAnnotation(ParameterNames.class);
+            //参数数量不合法
+            if (parameterNames.values() == null
+                || parameterNames.values().length != method.getParameterCount()) {
+                throw new ParameterException("无法建立测试的参数信息，因为参数数量不合法");
+            }
+
+            InputStream in = this.getClass().getClassLoader()
+                .getResourceAsStream(systemUtil.toFullPath(dir, fileName));
+            if (in == null) {
+                logger.warn("没有找到文件[" + systemUtil.toFullPath(dir, fileName));
+                continue;
+            }
+            //获取测试数据的输入流
+            String string = inputStreamUtil.readFull(in);
+            //加载测试数据，解析为List的结构
+            @SuppressWarnings("unchecked")
+            List<Map<String, Object>> params = (List<Map<String, Object>>) jsonUtil.JsonToObject(
+                string, List.class);
+            //多组数据生成多组测试数据
+            for (Map<String, Object> paramMap : params) {
+                //为每一组数据生成一行参数
+                Object[] paramOneLine = new Object[method.getParameterCount()];
+                for (int i = 0; i < method.getParameterCount(); i++) {
+                    //logger.debug("paramName:" + parameter.getName());
+                    paramOneLine[i] = paramMap.get(parameterNames.values()[i]);
+                }
+                objs.add(paramOneLine);
+            }
+        }
+        //最终结果
+        Object[][] ret = new Object[objs.size()][];
+        for (int i = 0; i < objs.size(); i++) {
+            ret[i] = objs.get(i);
+        }
+        //logger.debug(jsonUtil.ObjectToJson(ret));
+        return ret;
     }
 }

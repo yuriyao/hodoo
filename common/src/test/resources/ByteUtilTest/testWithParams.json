@@ -1,0 +1,42 @@
+[
+	{"@type":"java.util.HashMap",
+		"i":0,
+		"str":"<str> 0"
+	},
+	{"@type":"java.util.HashMap",
+		"i":1,
+		"str":"<str> 1"
+	},
+	{"@type":"java.util.HashMap",
+		"i":2,
+		"str":"<str> 2"
+	},
+	{"@type":"java.util.HashMap",
+		"i":3,
+		"str":"<str> 3"
+	},
+	{"@type":"java.util.HashMap",
+		"i":4,
+		"str":"<str> 4"
+	},
+	{"@type":"java.util.HashMap",
+		"i":5,
+		"str":"<str> 5"
+	},
+	{"@type":"java.util.HashMap",
+		"i":6,
+		"str":"<str> 6"
+	},
+	{"@type":"java.util.HashMap",
+		"i":7,
+		"str":"<str> 7"
+	},
+	{"@type":"java.util.HashMap",
+		"i":8,
+		"str":"<str> 8"
+	},
+	{"@type":"java.util.HashMap",
+		"i":9,
+		"str":"<str> 9"
+	}
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<!-- JSON测试数据生成工具 -->
+	<bean id="jsonTestParameterGeneratorUtil" class="org.footoo.common.test.util.JsonTestParameterGeneratorUtil">
+		<property name="jsonUtil">
+			<ref bean="jsonUtil"  />
+		</property>
+	</bean>
+</beans>

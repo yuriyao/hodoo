@@ -15,3 +15,505 @@ INFO 2014-07-20 18:09:26:596 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢Ààµ
 INFO 2014-07-20 18:10:44:225 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
 INFO 2014-07-20 18:48:06:783 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
 INFO 2014-07-20 18:53:19:254 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-20 23:13:15:861 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-20 23:15:41:928 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-20 23:16:06:641 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:22:20:729 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:24:19:844 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:24:44:699 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:27:38:282 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:27:38:598 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:27:38:599 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:30:34:677 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:30:34:980 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:30:34:980 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:32:56:091 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:32:56:449 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:32:56:450 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:32:56:463 org.footoo.common.log.Logger4jUtil#info-{"springConfigFiles":["spring/*.xml"]}
+INFO 2014-07-21 23:34:19:886 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:34:20:224 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:34:20:224 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:34:20:237 org.footoo.common.log.Logger4jUtil#info-class com.alibaba.fastjson.JSONObject
+INFO 2014-07-21 23:36:15:014 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:36:15:405 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:36:15:405 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:36:15:420 org.footoo.common.log.Logger4jUtil#info-class com.alibaba.fastjson.JSONObject
+INFO 2014-07-21 23:38:24:546 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:38:24:914 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:38:24:915 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:38:24:945 org.footoo.common.log.Logger4jUtil#info-class org.footoo.common.test.json.util.JsonUtilTest
+INFO 2014-07-21 23:40:26:143 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:40:26:466 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:40:26:466 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:40:26:494 org.footoo.common.log.Logger4jUtil#info-class org.footoo.common.test.json.util.JsonUtilTest
+INFO 2014-07-21 23:47:56:178 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:47:56:497 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:47:56:498 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:47:56:526 org.footoo.common.log.Logger4jUtil#info-class org.footoo.common.test.json.util.JsonUtilTest
+INFO 2014-07-21 23:47:56:533 org.footoo.common.log.Logger4jUtil#info-[
+	{"@type":"java.util.HashMap",
+		"0":0
+	},
+	{"@type":"java.util.HashMap",
+		"1":1
+	},
+	{"@type":"java.util.HashMap",
+		"2":2
+	},
+	{"@type":"java.util.HashMap",
+		"3":3
+	},
+	{"@type":"java.util.HashMap",
+		"4":4
+	},
+	{"@type":"java.util.HashMap",
+		"5":5
+	},
+	{"@type":"java.util.HashMap",
+		"6":6
+	},
+	{"@type":"java.util.HashMap",
+		"7":7
+	},
+	{"@type":"java.util.HashMap",
+		"8":8
+	},
+	{"@type":"java.util.HashMap",
+		"9":9
+	}
+]
+INFO 2014-07-21 23:51:15:310 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-21 23:51:15:641 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:51:15:641 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-21 23:51:15:668 org.footoo.common.log.Logger4jUtil#info-class org.footoo.common.test.json.util.JsonUtilTest
+INFO 2014-07-21 23:51:15:672 org.footoo.common.log.Logger4jUtil#info-[
+	{"@type":"java.util.HashMap",
+		"0":0
+	},
+	{"@type":"java.util.HashMap",
+		"1":1
+	},
+	{"@type":"java.util.HashMap",
+		"2":2
+	},
+	{"@type":"java.util.HashMap",
+		"3":3
+	},
+	{"@type":"java.util.HashMap",
+		"4":4
+	},
+	{"@type":"java.util.HashMap",
+		"5":5
+	},
+	{"@type":"java.util.HashMap",
+		"6":6
+	},
+	{"@type":"java.util.HashMap",
+		"7":7
+	},
+	{"@type":"java.util.HashMap",
+		"8":8
+	},
+	{"@type":"java.util.HashMap",
+		"9":9
+	}
+]
+INFO 2014-07-21 23:51:15:673 org.footoo.common.log.Logger4jUtil#info-0
+INFO 2014-07-21 23:51:15:673 org.footoo.common.log.Logger4jUtil#info-1
+INFO 2014-07-21 23:51:15:674 org.footoo.common.log.Logger4jUtil#info-2
+INFO 2014-07-21 23:51:15:674 org.footoo.common.log.Logger4jUtil#info-3
+INFO 2014-07-21 23:51:15:674 org.footoo.common.log.Logger4jUtil#info-4
+INFO 2014-07-21 23:51:15:674 org.footoo.common.log.Logger4jUtil#info-5
+INFO 2014-07-21 23:51:15:675 org.footoo.common.log.Logger4jUtil#info-6
+INFO 2014-07-21 23:51:15:675 org.footoo.common.log.Logger4jUtil#info-7
+INFO 2014-07-21 23:51:15:675 org.footoo.common.log.Logger4jUtil#info-8
+INFO 2014-07-21 23:51:15:675 org.footoo.common.log.Logger4jUtil#info-9
+INFO 2014-07-22 00:15:07:327 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-22 00:15:07:645 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-22 00:15:07:645 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-22 00:15:07:669 org.footoo.common.log.Logger4jUtil#info-class org.footoo.common.test.json.util.JsonUtilTest
+INFO 2014-07-22 00:15:07:673 org.footoo.common.log.Logger4jUtil#info-[
+	{"@type":"java.util.HashMap",
+		"0":0
+	},
+	{"@type":"java.util.HashMap",
+		"1":1
+	},
+	{"@type":"java.util.HashMap",
+		"2":2
+	},
+	{"@type":"java.util.HashMap",
+		"3":3
+	},
+	{"@type":"java.util.HashMap",
+		"4":4
+	},
+	{"@type":"java.util.HashMap",
+		"5":5
+	},
+	{"@type":"java.util.HashMap",
+		"6":6
+	},
+	{"@type":"java.util.HashMap",
+		"7":7
+	},
+	{"@type":"java.util.HashMap",
+		"8":8
+	},
+	{"@type":"java.util.HashMap",
+		"9":9
+	}
+]
+INFO 2014-07-22 00:15:07:676 org.footoo.common.log.Logger4jUtil#info-0
+INFO 2014-07-22 00:15:07:677 org.footoo.common.log.Logger4jUtil#info-1
+INFO 2014-07-22 00:15:07:677 org.footoo.common.log.Logger4jUtil#info-2
+INFO 2014-07-22 00:15:07:677 org.footoo.common.log.Logger4jUtil#info-3
+INFO 2014-07-22 00:15:07:678 org.footoo.common.log.Logger4jUtil#info-4
+INFO 2014-07-22 00:15:07:678 org.footoo.common.log.Logger4jUtil#info-5
+INFO 2014-07-22 00:15:07:678 org.footoo.common.log.Logger4jUtil#info-6
+INFO 2014-07-22 00:15:07:678 org.footoo.common.log.Logger4jUtil#info-7
+INFO 2014-07-22 00:15:07:679 org.footoo.common.log.Logger4jUtil#info-8
+INFO 2014-07-22 00:15:07:679 org.footoo.common.log.Logger4jUtil#info-9
+INFO 2014-07-22 00:16:35:668 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+WARN 2014-07-22 00:16:35:918 org.footoo.common.log.Logger4jUtil#warn-Ã»ÓÐÕÒµ½ÎÄ¼þ[org.footoo.common.test.lang.util.ByteUtilTest\testWithParmas.json
+INFO 2014-07-22 00:17:34:904 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+WARN 2014-07-22 00:17:35:151 org.footoo.common.log.Logger4jUtil#warn-Ã»ÓÐÕÒµ½ÎÄ¼þ[ByteUtilTest\testWithParmas.json
+INFO 2014-07-22 00:18:27:082 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-22 00:19:38:443 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+DEBUG 2014-07-22 00:19:38:769 org.footoo.common.log.Logger4jUtil#debug-[[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+]]
+INFO 2014-07-22 00:20:56:043 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-22 00:20:56:366 org.footoo.common.log.Logger4jUtil#info-{
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-22 00:20:56:367 org.footoo.common.log.Logger4jUtil#info-{
+	"@type":"org.footoo.common.test.json.util.JsonUtilTest",
+	"springConfigFiles":["spring/*.xml"]
+}
+INFO 2014-07-22 00:20:56:394 org.footoo.common.log.Logger4jUtil#info-class org.footoo.common.test.json.util.JsonUtilTest
+INFO 2014-07-22 00:20:56:398 org.footoo.common.log.Logger4jUtil#info-[
+	{"@type":"java.util.HashMap",
+		"i":0,
+		"str":"<str> 0"
+	},
+	{"@type":"java.util.HashMap",
+		"i":1,
+		"str":"<str> 1"
+	},
+	{"@type":"java.util.HashMap",
+		"i":2,
+		"str":"<str> 2"
+	},
+	{"@type":"java.util.HashMap",
+		"i":3,
+		"str":"<str> 3"
+	},
+	{"@type":"java.util.HashMap",
+		"i":4,
+		"str":"<str> 4"
+	},
+	{"@type":"java.util.HashMap",
+		"i":5,
+		"str":"<str> 5"
+	},
+	{"@type":"java.util.HashMap",
+		"i":6,
+		"str":"<str> 6"
+	},
+	{"@type":"java.util.HashMap",
+		"i":7,
+		"str":"<str> 7"
+	},
+	{"@type":"java.util.HashMap",
+		"i":8,
+		"str":"<str> 8"
+	},
+	{"@type":"java.util.HashMap",
+		"i":9,
+		"str":"<str> 9"
+	}
+]
+INFO 2014-07-22 00:20:56:400 org.footoo.common.log.Logger4jUtil#info-<str> 0
+INFO 2014-07-22 00:20:56:400 org.footoo.common.log.Logger4jUtil#info-<str> 1
+INFO 2014-07-22 00:20:56:400 org.footoo.common.log.Logger4jUtil#info-<str> 2
+INFO 2014-07-22 00:20:56:401 org.footoo.common.log.Logger4jUtil#info-<str> 3
+INFO 2014-07-22 00:20:56:401 org.footoo.common.log.Logger4jUtil#info-<str> 4
+INFO 2014-07-22 00:20:56:401 org.footoo.common.log.Logger4jUtil#info-<str> 5
+INFO 2014-07-22 00:20:56:402 org.footoo.common.log.Logger4jUtil#info-<str> 6
+INFO 2014-07-22 00:20:56:403 org.footoo.common.log.Logger4jUtil#info-<str> 7
+INFO 2014-07-22 00:20:56:403 org.footoo.common.log.Logger4jUtil#info-<str> 8
+INFO 2014-07-22 00:20:56:404 org.footoo.common.log.Logger4jUtil#info-<str> 9
+INFO 2014-07-22 00:21:13:804 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+DEBUG 2014-07-22 00:21:14:121 org.footoo.common.log.Logger4jUtil#debug-[[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+]]
+INFO 2014-07-22 00:22:20:871 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+DEBUG 2014-07-22 00:22:21:186 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:186 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:186 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:186 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:187 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:187 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:187 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:187 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:188 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:188 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:188 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:188 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:189 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:189 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:189 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:191 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:191 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:192 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:192 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 00:22:21:192 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 00:22:21:214 org.footoo.common.log.Logger4jUtil#debug-[[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+],[
+	null,
+	null
+]]
+INFO 2014-07-22 22:36:22:255 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+DEBUG 2014-07-22 22:36:22:656 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:656 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:656 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:657 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:657 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:657 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:657 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:658 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:658 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:658 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:658 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:659 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:659 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:659 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:659 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:661 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:661 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:661 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:662 org.footoo.common.log.Logger4jUtil#debug-paramName:arg0
+DEBUG 2014-07-22 22:36:22:662 org.footoo.common.log.Logger4jUtil#debug-paramName:arg1
+DEBUG 2014-07-22 22:36:22:686 org.footoo.common.log.Logger4jUtil#debug-[[
+	"<str> 0",
+	0
+],[
+	"<str> 1",
+	1
+],[
+	"<str> 2",
+	2
+],[
+	"<str> 3",
+	3
+],[
+	"<str> 4",
+	4
+],[
+	"<str> 5",
+	5
+],[
+	"<str> 6",
+	6
+],[
+	"<str> 7",
+	7
+],[
+	"<str> 8",
+	8
+],[
+	"<str> 9",
+	9
+]]
+INFO 2014-07-22 22:36:22:688 org.footoo.common.log.Logger4jUtil#info-3c7374723e20302030
+INFO 2014-07-22 22:36:22:690 org.footoo.common.log.Logger4jUtil#info-3c7374723e20312031
+INFO 2014-07-22 22:36:22:693 org.footoo.common.log.Logger4jUtil#info-3c7374723e20322032
+INFO 2014-07-22 22:36:22:695 org.footoo.common.log.Logger4jUtil#info-3c7374723e20332033
+INFO 2014-07-22 22:36:22:698 org.footoo.common.log.Logger4jUtil#info-3c7374723e20342034
+INFO 2014-07-22 22:36:22:701 org.footoo.common.log.Logger4jUtil#info-3c7374723e20352035
+INFO 2014-07-22 22:36:22:703 org.footoo.common.log.Logger4jUtil#info-3c7374723e20362036
+INFO 2014-07-22 22:36:22:706 org.footoo.common.log.Logger4jUtil#info-3c7374723e20372037
+INFO 2014-07-22 22:36:22:709 org.footoo.common.log.Logger4jUtil#info-3c7374723e20382038
+INFO 2014-07-22 22:36:22:713 org.footoo.common.log.Logger4jUtil#info-3c7374723e20392039
+INFO 2014-07-22 22:56:41:718 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-22 22:56:42:043 org.footoo.common.log.Logger4jUtil#info-3c7374723e20302030
+INFO 2014-07-22 22:56:42:046 org.footoo.common.log.Logger4jUtil#info-3c7374723e20312031
+INFO 2014-07-22 22:56:42:048 org.footoo.common.log.Logger4jUtil#info-3c7374723e20322032
+INFO 2014-07-22 22:56:42:050 org.footoo.common.log.Logger4jUtil#info-3c7374723e20332033
+INFO 2014-07-22 22:56:42:051 org.footoo.common.log.Logger4jUtil#info-3c7374723e20342034
+INFO 2014-07-22 22:56:42:053 org.footoo.common.log.Logger4jUtil#info-3c7374723e20352035
+INFO 2014-07-22 22:56:42:056 org.footoo.common.log.Logger4jUtil#info-3c7374723e20362036
+INFO 2014-07-22 22:56:42:059 org.footoo.common.log.Logger4jUtil#info-3c7374723e20372037
+INFO 2014-07-22 22:56:42:062 org.footoo.common.log.Logger4jUtil#info-3c7374723e20382038
+INFO 2014-07-22 22:56:42:065 org.footoo.common.log.Logger4jUtil#info-3c7374723e20392039
+INFO 2014-07-22 22:57:20:589 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-22 22:57:20:955 org.footoo.common.log.Logger4jUtil#info-3c7374723e20302030
+INFO 2014-07-22 22:57:20:959 org.footoo.common.log.Logger4jUtil#info-3c7374723e20312031
+INFO 2014-07-22 22:57:20:963 org.footoo.common.log.Logger4jUtil#info-3c7374723e20322032
+INFO 2014-07-22 22:57:20:967 org.footoo.common.log.Logger4jUtil#info-3c7374723e20332033
+INFO 2014-07-22 22:57:20:969 org.footoo.common.log.Logger4jUtil#info-3c7374723e20342034
+INFO 2014-07-22 22:57:20:972 org.footoo.common.log.Logger4jUtil#info-3c7374723e20352035
+INFO 2014-07-22 22:57:20:975 org.footoo.common.log.Logger4jUtil#info-3c7374723e20362036
+INFO 2014-07-22 22:57:20:978 org.footoo.common.log.Logger4jUtil#info-3c7374723e20372037
+INFO 2014-07-22 22:57:20:980 org.footoo.common.log.Logger4jUtil#info-3c7374723e20382038
+INFO 2014-07-22 22:57:20:983 org.footoo.common.log.Logger4jUtil#info-3c7374723e20392039
+INFO 2014-07-22 23:01:25:159 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-22 23:01:25:463 org.footoo.common.log.Logger4jUtil#info-[
+	{
+		"p1":"hello",
+		"p2":1,
+		"p3":"fuck"
+	},
+	{
+		"p1":"you",
+		"p2":2,
+		"p3":"bitch"
+	}
+]
+INFO 2014-07-22 23:02:09:524 org.footoo.common.log.Logger4jUtil#info-ÕýÔÚ½¨Á¢ÀàµÄ²âÊÔ»·¾³
+INFO 2014-07-22 23:02:09:830 org.footoo.common.log.Logger4jUtil#info-[
+	{"@type":"java.util.HashMap",
+		"p1":"hello",
+		"p2":1,
+		"p3":"fuck"
+	},
+	{"@type":"java.util.HashMap",
+		"p1":"you",
+		"p2":2,
+		"p3":"bitch"
+	}
+]
